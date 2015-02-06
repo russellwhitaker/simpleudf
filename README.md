@@ -1,14 +1,16 @@
 # simpleudf
 
-A Leiningen template for FIXME.
+A Leiningen template for generating simple Hadoop Hive UDF projects.
 
 ## Usage
 
-FIXME
+```bash
+lein new simpleudf <my_new_project>
+```
 
 ## License
 
-Copyright © 2015 FIXME
+Copyright © 2015 Russell Whitaker
 
 Distributed under the Eclipse Public License either version 1.0 or (at
 your option) any later version.
