@@ -12,5 +12,4 @@ lein new simpleudf <my_new_project>
 
 Copyright © 2015 Russell Whitaker
 
-Distributed under the Eclipse Public License either version 1.0 or (at
-your option) any later version.
+Distributed under the Eclipse Public License version 1.0 (EPL-1.0).
