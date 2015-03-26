@@ -9,11 +9,11 @@
   [name]
   (let [data {:name name
               :sanitized (name-to-path name)
-              :class-name (clojure.string/capitalize name)}]
+              :class-name "Simple"}]
     (main/info (format "Generating fresh 'lein new' simpleudf project '%s'." name))
     (->files data
              ["src/{{sanitized}}/core.clj" (render "core.clj" data)]
              ["spec/{{sanitized}}/core_spec.clj" (render "spec/core_spec.clj" data)]
-             ["src/{{sanitized}}/hive/udf/{{class-name}}.clj" (render "hive/udf/UDFClassName.clj" data)]
+             ["src/{{sanitized}}/hive/udf/{{class-name}}.clj" (render "hive/udf/Simple.clj" data)]
              ["README.md" (render "README.md" data)]
              ["project.clj" (render "project.clj" data)])))
