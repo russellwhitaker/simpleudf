@@ -15,5 +15,5 @@
              ["src/{{sanitized}}/core.clj" (render "core.clj" data)]
              ["spec/{{sanitized}}/core_spec.clj" (render "spec/core_spec.clj" data)]
              ["src/{{sanitized}}/hive/udf/{{class-name}}.clj" (render "hive/udf/UDFClassName.clj" data)]
-             ["README.md" (render "../README.md" data)]
-             ["project.clj" (render "../project.clj" data)])))
+             ["README.md" (render "README.md" data)]
+             ["project.clj" (render "project.clj" data)])))
