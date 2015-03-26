@@ -9,7 +9,7 @@
 ;;;
 ;;; 0.) tests first!
 ;;;
-(ns {{name}}.hive.udf.{{class-name}}
+(ns {{name}}.hive.udf.simple
   (:import [org.apache.hadoop.hive.ql.exec UDF]
            [org.apache.hadoop.io Text])
   (:require [{{name}}.core :refer [hello-{{name}} goodbye-{{name}}]])
